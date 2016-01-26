@@ -1,0 +1,163 @@
+/* Inserta tu codigo aqui */
+*{	
+	font-family: arial;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	padding: 15px 0;
+	margin: 0;
+	color: #fff;
+	border-bottom: 1px solid #333333;
+	background: #333333;
+
+}
+.logo{
+	width: 80px;
+	height: 80px;
+}
+nav ul{
+	list-style-type: none;
+	padding-top: 34px;
+	margin: 0 -15px 0 0;
+	float: right;
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+nav li{
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+nav li:hover a{
+	background: #585858;
+}
+nav a{
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #eee;
+	text-shadow:2px 2px 4px #000;
+}
+nav a:hover{
+	color: #fff;
+}
+section{
+	padding: 0px 0;
+	margin: 0;
+}
+.add li{ 
+	display: inline-block;
+	margin: 10px;
+}
+.add a{
+	
+	color: blue;
+	font-size: 12px;
+	list-style: none;
+}
+.img2{
+	position: relative;
+	text-align: center;
+	float: right;
+	margin-bottom: 10px;
+}
+.img2 a{
+	text-decoration: none;
+	color: #4573A1;
+	text-align: center;
+	position: relative;
+	margin: -10px 0 -10px 0;
+}
+.img2 img{
+	width: 200px;
+	padding: 3px;
+	margin:15px 0 0 0;
+	border: 1px solid gray;
+	background-color: white;
+}
+.da{
+	border-bottom: 1px solid gray;
+	background-color: #EEEEEE;
+}
+
+.row1 div .col-2{
+	margin: 10px 0 0 20px;
+}
+.img3{
+	position: relative;
+	text-align: center;
+	float: right;
+}
+.img3 a{
+	color: #4573A1;
+	text-align: center;
+	position: relative;
+	font-size: 11px;
+}
+.img3 img{
+	width: 110px;
+	padding: 3px;
+	margin:5px;
+	border: 1px solid gray;
+}
+.descargas{
+	margin-top: 50px;
+}
+.descargas li{
+	margin:5px;
+}
+.descargas p{
+	color:#585858;; 
+}
+.descargas a{
+	color: #4573A1;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.sha img{
+	width: 10px;
+	margin-right: 10px;
+}
+hr{
+	margin-bottom: 10px;
+}
+footer{
+
+	background-color: #585858;
+	padding: 0px 0;
+	margin: 0;
+	position: relative;
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.texto{
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: justify;
+	padding-right:40px;
+}
+.box-footer a{
+	display: inline-block;
+	margin:auto;
+	padding:0 10px 0 0; 
+	font-size: 10px;
+	color: white;
+	text-align: center;	
+}
+.text-center{
+	text-align: center;
+}
+.copy{
+	font-size: 10px;
+	margin: 20px;
+}
